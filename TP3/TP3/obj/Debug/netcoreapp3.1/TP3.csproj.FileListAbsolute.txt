@@ -1,0 +1,13 @@
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\bin\Debug\netcoreapp3.1\TP3.exe
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\bin\Debug\netcoreapp3.1\TP3.deps.json
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\bin\Debug\netcoreapp3.1\TP3.runtimeconfig.json
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\bin\Debug\netcoreapp3.1\TP3.runtimeconfig.dev.json
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\bin\Debug\netcoreapp3.1\TP3.dll
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\bin\Debug\netcoreapp3.1\TP3.pdb
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\obj\Debug\netcoreapp3.1\TP3.csprojAssemblyReference.cache
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\obj\Debug\netcoreapp3.1\TP3.AssemblyInfoInputs.cache
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\obj\Debug\netcoreapp3.1\TP3.AssemblyInfo.cs
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\obj\Debug\netcoreapp3.1\TP3.csproj.CoreCompileInputs.cache
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\obj\Debug\netcoreapp3.1\TP3.dll
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\obj\Debug\netcoreapp3.1\TP3.pdb
+C:\Users\Mauro\source\repos\tpnro3-mcabrera3001\TP3\TP3\obj\Debug\netcoreapp3.1\TP3.genruntimeconfig.cache
