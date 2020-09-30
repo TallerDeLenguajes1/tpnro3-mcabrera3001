@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Mauro\\.nuget\\packages\\": {}
+    "C:\\Users\\ROG BY NG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mauro\\source\\repos\\tpnro3-mcabrera3001\\TP3\\TP3\\TP3.csproj",
+      "projectUniqueName": "C:\\Users\\ROG BY NG\\Documents\\RepositoriosTaller\\TP3\\TP3\\TP3.csproj",
       "projectName": "TP3",
-      "projectPath": "C:\\Users\\Mauro\\source\\repos\\tpnro3-mcabrera3001\\TP3\\TP3\\TP3.csproj",
-      "packagesPath": "C:\\Users\\Mauro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mauro\\source\\repos\\tpnro3-mcabrera3001\\TP3\\TP3\\obj\\",
+      "projectPath": "C:\\Users\\ROG BY NG\\Documents\\RepositoriosTaller\\TP3\\TP3\\TP3.csproj",
+      "packagesPath": "C:\\Users\\ROG BY NG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ROG BY NG\\Documents\\RepositoriosTaller\\TP3\\TP3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mauro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ROG BY NG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

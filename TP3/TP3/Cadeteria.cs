@@ -18,17 +18,17 @@ namespace TP3
         List<Cadete> cadetes;
 
         public string Nombre { get => nombre; set => nombre = value; }
-        public List<Cadete> Cadetes { get => cadetes; set => cadetes = value; }
+        public List<Cadete> listaDeCadetes { get => cadetes; set => cadetes = value; }
 
-        public Cadeteria(string Nombre)
+        public Cadeteria(string Nombre, List<Cadete> listaDeCadetes)
         {
             this.Nombre = Nombre;
-            Cadetes = new List<Cadete>();
+            this.listaDeCadetes = listaDeCadetes;
         }
 
         public void agregarCadetes(Cadete nuevoCadete)
         {
-            Cadetes.Add(nuevoCadete);
+            listaDeCadetes.Add(nuevoCadete);
         }
     }
 
@@ -37,17 +37,19 @@ namespace TP3
         int nroPedido;
         string observaciones;
         Estado estadoPedido;
+        Cliente nuevoCliente;
 
         public int NroPedido { get => nroPedido; set => nroPedido = value; }
         public string Observaciones { get => observaciones; set => observaciones = value; }
         public Estado EstadoPedido { get => estadoPedido; set => estadoPedido = value; }
+        internal Cliente NuevoCliente { get => nuevoCliente; set => nuevoCliente = value; }
 
         Random rand = new Random();
         public Pedido(int nro, int idCliente, string nombreCliente, string direccionCliente, int celularCliente)
         {
             nroPedido = nro;
             estadoPedido = Estado.enviado;
-            Cliente nuevoCliente = new Cliente(idCliente, nombreCliente, direccionCliente, celularCliente);
+            NuevoCliente = new Cliente(idCliente, nombreCliente, direccionCliente, celularCliente);
         }
     }
 
@@ -77,27 +79,34 @@ namespace TP3
         string nombreCadete;
         string direccionCadete;
         int celularCadete;
-        List<Pedido> pedidos;
+        int cantidadaPedidos;
+        Pedido pedido;
+        List<Pedido> listaDePedidos;
  
 
         public int IdCadete { get => idCadete; set => idCadete = value; }
         public string NombreCadete { get => nombreCadete; set => nombreCadete = value; }
         public string DireccionCadete { get => direccionCadete; set => direccionCadete = value; }
         public int CelularCadete { get => celularCadete; set => celularCadete = value; }
-        internal List<Pedido> Pedidos { get => pedidos; set => pedidos = value; }
+        public int CantidadaPedidos { get => cantidadaPedidos; set => cantidadaPedidos = value; }
+        public Pedido Pedido { get => pedido; set => pedido = value; }
+        internal List<Pedido> ListaDePedidos { get => listaDePedidos; set => listaDePedidos = value; }
 
-        public Cadete(int idCadete, string nombreCadete , string direccionCadete, int CelularCadete)
+        public Cadete(int idCadete, string nombreCadete, string direccionCadete, int CelularCadete, List<Pedido> listaDePedidos)
         {
             this.IdCadete = idCadete;
             this.NombreCadete = nombreCadete;
             this.DireccionCadete = direccionCadete;
             this.celularCadete = CelularCadete;
-
+            this.CantidadaPedidos = cantidadaPedidos;
+            this.ListaDePedidos = listaDePedidos;
+            this.Pedido = pedido;
         }
 
         public void agregarPedidos(Pedido nuevoPedido)
         {
-            Pedidos.Add(nuevoPedido);
+            CantidadaPedidos++;
+            ListaDePedidos.Add(nuevoPedido);
         }
 
 
